@@ -4,11 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="styles.css">
-		<title>Home</title>
+		<title>Screenshots</title>
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<![endif]-->
-		<script src="js/modalimages.js"></script>
 	</head>
 	<body>
 		<header>
@@ -24,7 +23,12 @@
 			</ul>
 		</nav>
 		<section>
-			<p>I'm hosted with GitHub Pages.</p>
+			<img id="myImg" src="img_fjords.jpg" alt="Trolltunga, Norway" width="300" height="200">
+			<div id="myModal" class="modal">
+				<span class="close">&times;</span>
+				<img class="modal-content" id="img01">
+				<div id="caption"></div>
+			</div> 
 		</section>
 		<article>
 			Article
